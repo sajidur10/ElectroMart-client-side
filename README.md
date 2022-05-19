@@ -1,6 +1,7 @@
-# Korean Language Tutor
-### code link: https://github.com/programming-hero-web-course-4/independent-service-provider-sajidur10
-### live Website: https://independent-service-prov-61b22.web.app
+# Electromart
+### server code link: https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-sajidur10
+### client code link:https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-sajidur10
+### live Website: 
 ***
 A list of technologies used within the project:
 * I use react router.
