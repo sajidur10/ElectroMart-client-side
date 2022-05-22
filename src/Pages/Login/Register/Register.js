@@ -56,7 +56,7 @@ const Register = () => {
                 <label className={`ps-2 ${agree ? '' : 'text-danger'}`} htmlFor="terms">Accept ElectroMart Terms and Conditions</label>
                 <input
                     disabled={!agree}
-                    className='w-50 mx-auto btn btn-primary mt-2'
+                    className='w-25 mx-auto btn btn-success mt-2'
                     type="submit"
                     value="Register" />
             </form>
