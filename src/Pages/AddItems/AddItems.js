@@ -19,9 +19,9 @@ const AddItems = () => {
             })
     };
     return (
-        <div className='w-50 mx-auto'>
-            <h1>Please Add New Items</h1>
-            <form className='d-flex flex-column ' onSubmit={handleSubmit(onSubmit)}>
+        <div className='w-50 mx-auto service my-5 shadow-lg mb-5'>
+            <h1 className='text-center mt-5'>Please Add New Items</h1>
+            <form className='d-flex flex-column mb-5 ' onSubmit={handleSubmit(onSubmit)}>
                 <input className='mb-2' placeholder='Name' {...register("name", { required: true, maxLength: 20 })} />
                 <textarea className='mb-2' placeholder='Description'{...register("description",)} />
                 <input className='mb-2' placeholder='Price' type="number" {...register("price",)} />
