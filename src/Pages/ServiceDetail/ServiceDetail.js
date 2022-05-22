@@ -54,7 +54,7 @@ const ServiceDetail = () => {
     };
     return (
         <div>
-            <div className='service my-5'>
+            <div className='service my-5 shadow-lg '>
                 <img className='w-100' src={service.img} alt="" />
                 <h2>{service.name}</h2>
                 <p>Price: ${service.price}</p>
