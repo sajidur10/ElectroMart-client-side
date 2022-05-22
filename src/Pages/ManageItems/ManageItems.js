@@ -12,7 +12,7 @@ const ManageItems = () => {
     }, [services])
 
     return (
-        <div id="services" className='container'>
+        <div id="services" className='container shadow-lg'>
             <div className="row">
                 <h1 className='text-primary text-center mt-5'>Manage Item</h1>
                 <div className="services-container">
