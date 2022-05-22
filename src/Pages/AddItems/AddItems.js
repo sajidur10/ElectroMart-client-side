@@ -19,7 +19,7 @@ const AddItems = () => {
             })
     };
     return (
-        <div className='w-50 mx-auto service my-5 shadow-lg mb-5'>
+        <div className='w-50 mx-auto service my-5 shadow-lg mb-5 bg-success'>
             <h1 className='text-center mt-5'>Please Add New Items</h1>
             <form className='d-flex flex-column mb-5 ' onSubmit={handleSubmit(onSubmit)}>
                 <input className='mb-2' placeholder='Name' {...register("name", { required: true, maxLength: 20 })} />
